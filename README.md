@@ -1,1 +1,3 @@
 # ReCapProject
+
+ReCapProject simüle edilmiştir.
