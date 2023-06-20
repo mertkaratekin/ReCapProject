@@ -22,14 +22,7 @@ namespace Business.Concrete
 
         public void Add(Car car)
         {
-            if (car.Description.Length >= 2 && car.DailyPrice > 0)
-            {
-                _carDal.Add(car);
-            }
-            else
-            {
-                throw new Exception("Araba ismi 2 karakterden fazla ve günlük fiyatı 0 TL'den yüksek olmalı");
-            }
+            _carDal.Add(car);
         }
 
         public void Delete(Car car)
